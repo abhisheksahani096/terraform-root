@@ -42,12 +42,10 @@ variable "ec2_instances" {
   }))
 }
 
-/*
 variable "bucket_suffix" {
   description = "Unique suffix for the S3 bucket name"
   type        = string
 }
-*/
 
 variable "tags" {
   description = "Common tags applied to all resources via map meta-argument"
