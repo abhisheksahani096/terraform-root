@@ -54,7 +54,7 @@ module "ec2_instances" {
 
 # ── S3 Bucket ─────────────────────────────────────────────────────────
 
-/* 
+
 module "s3_bucket" {
   source = "git::https://github.com/abhisheksahani096/terraform-module-s3.git"
 
@@ -62,4 +62,4 @@ module "s3_bucket" {
   environment = var.environment
   tags        = merge(local.common_tags, { Purpose = "storage" })
 }  
-*/
+
